@@ -19,7 +19,7 @@ Para practicar mis conocimientos en HTML5 y CSS le pedí a la inteligencia artif
 
 # Ver Proyecto en Vivo
 
-Puedes ver el resultado final aquí: <a href="https://jaredvd.github.io/Portafolio-de-Fotografa/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">Enlace al proyecto</a>
+Puedes ver el resultado final aquí: [Enlace al proyecto](https://jaredvd.github.io/Portafolio-de-Fotografa/)
 
 # Lo que aprendí
 
