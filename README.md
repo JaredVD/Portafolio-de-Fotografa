@@ -30,7 +30,7 @@ Puedes ver el resultado final aquí: [Enlace al proyecto](https://jaredvd.github
 
 # Autor 
 
-* **[Jared Vázquez Díaz]**
+* **Jared Vázquez Díaz**
 * Github: [@JaredVD](https://github.com/JaredVD)
 * LinkedIn: [Mi perfil de LinkedIn](https://www.linkedin.com/in/jared-v%C3%A1zquez-d%C3%ADaz/)
 
