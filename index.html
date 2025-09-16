@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- metadatos-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esta página es un portafolio de una experta en fotografía para que la contacten si quieren usar sus servicios"></meta>
+    <meta name="keywords" content="fotografia, photoshop, viajes, camara, camaras, video, edicion, profesional, portafolio, trabajo, contacto, experta, experiencia">
+    <meta name="author" content="Jared Vazquez Diaz">
+
+    <!--titulo de la página-->
+    <title>Fotografa Lucia</title>
+
+    <!-- normalize -->
+    <link rel="preload" href="css/normalize.css" as="stylesheet"/>
+    <link href="css/normalize.css" rel="stylesheet"/>
+
+    <!-- hoja de estilos -->
+    <link rel="preload" href="css/style.css" as="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+
+    <!-- fuente -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap" crossorigin="crossorigin" as="font"/> 
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap" media="print" onload="this.media='all'"/> 
+
+    <!--precargamos la imagen del hero-->
+    <link rel="preload" as="image" href="img/hero.jpg"/>
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+         <div class="background">
+            <div class="presentacion">
+                <h1 class="presentacion__nombre no-margin">Portafolio de Lucia</h1>
+                <div class="presentacion__foto">
+                    <picture>
+                        <source width="100%" height="100%" class="foto-perfil" loading="lazy" srcset="img/fotoPerfil.webp" type="image/webp"/>
+                        <img width="100%"  height="100%" loading="lazy" class="foto-perfil" src="img/fotoPerfil.jpg" alt="foto de perfil">
+                    </picture>
+                </div>
+                <div class="presentacion__contenido">      
+                    <h2 class="profesion no-margin">Fotógrafa Profesional</h2>
+                    <p class="slogan no-margin">Capturando momentos, un clic a la vez</p>
+                </div>
+            </div>
+        </div>  
+    </header>
+    <main class="main">
+        <h2 class="titulo-h2 no-margin">Galeria</h2>
+        <div class="main__contenedor">
+            <div class="contenedor-fotos">
+                <picture>
+                    <source width="80%" height="80%" class="fotos" loading="lazy" srcset="img/1.webp" type="image/webp"/>
+                    <img width="80%" height="80%" loading="lazy" class="fotos" src="img/1.jpg" alt="foto del metro chabacano"/>
+                </picture>
+                <p class="descripcion-foto">Metro de la CDMX - Chabacano</p>
+            </div>
+            <div class="contenedor-fotos">
+                <picture>
+                    <source width="80%" height="80%" class="fotos" loading="lazy" srcset="img/2.webp" type="image/webp" />
+                    <img width="80%" height="80%" loading="lazy" class="fotos" src="img/2.jpg" alt="foto del zocalo de mexico"/>
+                </picture>
+                <p class="descripcion-foto">Zócalo de la CDMX</p>
+            </div>
+            <div class="contenedor-fotos">
+                <picture>
+                    <source width="80%" height="80%" class="fotos" loading="lazy" srcset="img/3.webp" type="image/webp" />
+                    <img width="80%" height="80%" loading="lazy" class="fotos" src="img/3.jpg" alt="palacio de bellas artes"/>
+                </picture>
+                <p class="descripcion-foto">Palacio de Bellas Artes</p>
+            </div>
+            <div class="contenedor-fotos">
+                <picture>
+                    <source width="80%" height="80%" loading="lazy" class="fotos" srcset="img/4.webp" type="image/webp"/>
+                    <img width="80%" height="80%" loading="lazy" class="fotos" src="img/4.jpg" alt="torre latinoamericana"/>
+                </picture>
+                <p class="descripcion-foto">Torre Latinoamericana</p>
+            </div>
+            <div class="contenedor-fotos">
+                <picture>
+                    <source width="80%" height="80%" class="fotos" loading="lazy" srcset="img/5.webp" type="image/webp"/>
+                    <img width="80%" height="80%" loading="lazy" class="fotos" src="img/5.jpg" alt="castillo de chapultepec"/>
+                </pictures>
+                <p class="descripcion-foto">Castillo de Chapultepec</p>
+            </div>
+            <div class="contenedor-fotos">
+                <picuture>
+                    <source width="80%" height="80%"  class="fotos" loading="lazy" srcset="img/6.webp" type="image/webp"/>
+                    <img width="80%" height="80%" loading="lazy" class="fotos" src="img/6.jpg" alt="playa de tulum"/>
+                </picuture>
+                <p class="descripcion-foto">Tulum</p>
+            </div>
+        </div>
+        <section>
+            <h2 class="titulo-h2 sobre-mi">Sobre mi</h2>
+            <div class="habilidades__contenedor">
+                <picture>
+                    <source width="100%" height="100%"  loading="lazy" class="diploma__imagen" srcset="img/diploma.webp" type="image/webp" />
+                    <img width="100%" height="100%" loading="lazy" class="diploma__imagen" src="img/diploma.jpg" alt="diploma de universidad"/>  
+                </picture>
+                <div class="diploma__div">
+                    <p class="diploma-parrafo no-margin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus consequuntur laudantium veritatis, eaque laboriosam animi iure nesciunt facere autem sequi distinctio, consequatur itaque commodi deserunt ut sit sunt. Aliquid, et.</p>
+                    <p class="diploma-parrafo no-margin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, similique nisi asperiores voluptas officiis quia quibusdam maxime.</p>
+                </div> 
+                <section class="logos-habilidades">
+                    <h3 class="habilidades no-margin">Habilidades</h3>
+                    <div class="logos">
+                        <div class="div-logo"> 
+                            <picture>
+                                <source width="100%" height="100%" class="logo" loading="lazy" srcset="img/logo-1.webp" type="image/webp"/>
+                                <img width="100%" height="100%" loading="lazy" class="logo" src="img/logo-1.jpg" alt="adobe photoshop"/> 
+                            </picture>
+                            <p class="habilidad-parrafo no-margin">Adobe Photoshop</p>
+                        </div> 
+                        <div class="div-logo"> 
+                            <picture>
+                                <source width="100%" height="100%" class="logo" loading="lazy" srcset="img/logo-2.webp" type="image/webp"/>
+                                <img width="100%" height="100%" loading="lazy" class="logo" src="img/logo-2.jpg" alt="adobe lightroom classic"/> 
+                            </picture>
+                            <p class="habilidad-parrafo no-margin">Adobe Lightroom Classic</p>
+                        </div> 
+                        <div class="div-logo">
+                            <picture>
+                                <source width="100%" height="100%" class="logo" loading="lazy" srcset="img/logo-3.webp" type="image/webp"/>
+                                <img width="100%" height="100%" loading="lazy" class="logo" src="img/logo-3.jpg" alt="adobe "/> 
+                            </picture>
+                            <p class="habilidad-parrafo no-margin">Capture One Pro</p>
+                        </div> 
+                        <div class="div-logo"> 
+                            <picture>
+                                <source width="100%" height="100%" class="logo" loading="lazy" srcset="img/logo-4.webp" type="image/webp"/>
+                                <img width="100%" height="100%" loading="lazy" class="logo" src="img/logo-4.jpg" alt="dxo photolab"/> 
+                            </picture>
+                            <p class="habilidad-parrafo no-margin">DxO PhotoLab</p>
+                        </div> 
+                        <div class="div-logo"> 
+                            <picture>
+                                <source width="100%" height="100%" loading="lazy" class="logo" srcset="img/logo-5.webp" type="image/webp"/>
+                                <img width="100%" height="100%" loading="lazy" class="logo" src="img/logo-5.jpg" alt="affinity photo"/> 
+                            </picture>
+                            <p class="habilidad-parrafo no-margin">Affinity Photo</p>
+                        </div> 
+                        <div class="div-logo"> 
+                            <picture>
+                                <source width="100%" height="100%" loading="lazy" class="logo" srcset="img/logo-6.webp" type="image/webp"/>
+                                <img width="100%" height="100%" loading="lazy" class="logo" src="img/logo-6.jpg" alt="topaz labs"/> 
+                            </picture>
+                            <p class="habilidad-parrafo no-margin">Topaz Labs</p>
+                        </div> 
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section>
+            <h2 class="no-margin titulo-h2">Contacto</h2>
+            <form class=" formulario-back">
+                <fieldset>
+                    <legend>Favor de llenar todos los campos</legend>
+                    <div class="elementos-formulario">
+                        <div class="campo">
+                            <label class="campo__label" for="nombre" >Nombre:</label>
+                            <input class="campo__input" placeholder="Tu Nombre" type="text" id="nombre"/>
+                        </div>
+                        <div class="campo">
+                            <label class="campo__label" for="telefono">Teléfono:</label>
+                            <input class="campo__input" placeholder="Tu Telefono" type="tel" id="telefono"/>
+                        </div>
+                        <div class="campo">
+                            <label class="campo__label" for="correo">Correo:</label>
+                            <input class="campo__input " placeholder="Tu Correo" type="email" id="correo"/>
+                        </div>
+                        
+                        <div class="campo">
+                            <label class="campo__label" for="mensaje">Mensaje:</label>
+                            <textarea class="campo__input text-area" id="mensaje"></textarea>
+                        </div>
+                    </div>
+                    <div class="div-boton">
+                        <button class="boton"/>Enviar</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <section class="advertencia">
+            <h2 class="no-margin advertencia__h2">Aviso</h2>
+            <p class="no-margin advertencia__p">Todas las imagenes usadas en este sitio web incluyendo la fotografía de "Lucia" y exceptuando los logos de los programas en la sección de habilidades fueron creadas con IA (específicamente con ChatGPT)</p>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__parrafo no-margin">Sitio Web hecho por Jared Vázquez Díaz
+    </footer>
+</body>
+</html>
